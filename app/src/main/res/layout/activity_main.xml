@@ -27,31 +27,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:text="Take Picture"
+        android:background="@color/skyblue"
         android:gravity="center"
+        android:text="Take Picture 拍照鉴定"
         android:textAllCaps="false"
-        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@color/skyblue"
-        android:textColor="@color/black"/>
+ />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="370sp"
         android:layout_height="370sp"
         android:layout_centerHorizontal="true"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/classified"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+ />
 
     <TextView
         android:id="@+id/classified"
@@ -59,15 +56,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:text="Classified as:"
-        android:textSize="20sp"
+        android:fontFamily="@font/spinnaker"
+        android:text="Classified as 鉴定为:"
+        android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/confidencesText"
+        app:layout_constraintBottom_toTopOf="@+id/result"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.267" />
+        />
 
     <TextView
         android:id="@+id/result"
@@ -77,14 +74,13 @@
         android:layout_centerHorizontal="true"
         android:text=""
         android:textColor="@color/skyblue"
-        android:textSize="27sp"
+        android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@id/confidencesText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.642" />
+        app:layout_constraintTop_toBottomOf="@id/classified"
+ />
 
     <TextView
         android:id="@+id/confidencesText"
@@ -93,13 +89,12 @@
         android:layout_below="@+id/result"
         android:layout_centerHorizontal="true"
         android:text="Confidences:"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/confidence"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702" />
+        app:layout_constraintTop_toBottomOf="@id/result"
+        />
 
     <TextView
         android:id="@+id/confidence"
@@ -109,12 +104,11 @@
         android:layout_centerHorizontal="true"
         android:text=""
         android:textColor="#000"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confidencesText"
-        app:layout_constraintVertical_bias="0.056" />
+/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

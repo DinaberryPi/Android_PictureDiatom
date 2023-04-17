@@ -15,7 +15,7 @@
         <!-- Customize your theme here. -->
         <!-- text -->
         <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/architects_daughter</item>
+        <item name="android:fontFamily">@font/spinnaker</item>
         <item name="android:textStyle">bold</item>
 
     </style>
