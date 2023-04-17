@@ -18,5 +18,5 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 GIF created with **ScreenToGif**
 
-Inspiration & Reference
+## Inspiration & Reference
 This app was inspired by IJ Apps's tutorial on YouTube, which can be found at https://www.youtube.com/watch?v=jhGm4KDafKU. The code for this app is based on IJ Apps's GitHub repository https://github.com/IJ-Apps/Image-Classification-App-with-Teachable-Machine, with modifications made to suit the specific needs of this project. Thanks IJ Apps for providing a helpful resource!
