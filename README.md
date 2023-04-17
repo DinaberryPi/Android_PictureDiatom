@@ -14,7 +14,7 @@ In the future, we aim to expand the app's capabilities to identify and classify 
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/DinaberryPi/DiatomIdentifier/blob/master/DI_Demo_forGit.gif?raw=true.gif?raw=true.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/DinaberryPi/DiatomIdentifier/blob/master/DI_Demo_forGit.gif?raw=true.gif?raw=true.gif' title='Video Demo' width='320' alt='Video Demo' />
 
 GIF created with **ScreenToGif**
 
