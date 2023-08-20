@@ -8,7 +8,7 @@ Upload an image containing a diatom to the app's interface, and the app will use
 The model may not always correctly identify or classify diatoms and may be impacted by the quality of the input image.
 
 ## Future Development
-In the future, I aim to expand the app's capabilities to identify and classify even more types of diatoms, potentially including additional genera or species. We also plan to improve the model's accuracy by training it on more extensive and diverse datasets. Finally, we hope to make the app more user-friendly by implementing a more intuitive interface and providing detailed information on the classification process.
+In the future, I aim to expand the app's capabilities to identify and classify even more types of diatoms, potentially including additional genera or species. I also plan to improve the model's accuracy by training it on more extensive and diverse datasets. Finally, I hope to make the app more user-friendly by implementing a more intuitive interface and providing detailed information on the classification process.
 
 ## Video Demo
 
