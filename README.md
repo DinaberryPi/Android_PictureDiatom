@@ -1,5 +1,5 @@
 ## App Description
-This app uses Google Teachable Machine to identify and classify diatoms from an input image. It can determine if the diatom is Centric, Araphid, Eunotioid, or Surirelloid.
+This app not only captures diatom photos but also performs species classification. I trained a discriminative AI model using Google Teachable Machine, developed an Android app for capturing photos, and seamlessly integrated the AI model into the app. As a result, users can enjoy real-time diatom species identification within the application.
 
 ## How it works
 Upload an image containing a diatom to the app's interface, and the app will use machine learning to analyze and classify the diatom into one of the four categories.
